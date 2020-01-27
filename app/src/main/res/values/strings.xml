@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">RUET_Meal</string>
+    <array name="hall">
+
+        <item>Shahid Lt. Selim Hall</item>
+        <item>Shahid Shahidul Islam Hall</item>
+        <item>Shahid Abdul Hamid Hall</item>
+        <item>Tin Shed Hall (Extension)</item>
+        <item>Deshratna Sheikh Hasina Hall</item>
+        <item>Shahid President Ziaur Rahman Hall</item>
+        <item>Bangabandhu Sheikh Mujibur Rahman Hall</item>
+    </array>
+
+    <array name="Token">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"Off"</item>
+    </array>
+
+    <string name="map_key" translatable="false">AIzaSyAdYl5sPMCD1GC_A4yZsogPLoQo2lv9jSQ</string>
+</resources>

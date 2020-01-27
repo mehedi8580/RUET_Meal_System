@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#c0c1f7"
+    >
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="187dp"
+        android:layout_height="217dp"
+        android:background="#cbccf8"
+        android:layout_marginTop="17dp"
+        >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="182dp"
+            android:layout_height="165dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/student"
+            android:onClick="student"
+            android:text=""
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="170dp"
+            android:textColor="#000"
+            android:text="Student Service"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="182dp"
+        android:layout_height="217dp"
+        android:background="#cbccf8"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="190dp"
+        >
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="189dp"
+            android:layout_height="162dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/admin"
+            android:text=""
+            android:onClick="adminlogin"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="170dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:text="Admin Login" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="182dp"
+        android:layout_height="217dp"
+        android:background="#cbccf8"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="190dp">
+
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="192dp"
+            android:layout_height="175dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:onClick="token"
+            android:background="@drawable/tok"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="180dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:text="TaKe ToKen" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="187dp"
+        android:layout_height="217dp"
+        android:background="#cbccf8"
+        android:layout_marginTop="240dp">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="184dp"
+            android:layout_height="173dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/hall"
+            android:text="" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="180dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:text="Hall Details" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="187dp"
+        android:layout_height="217dp"
+        android:background="#cbccf8"
+        android:layout_marginTop="463dp">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="184dp"
+            android:layout_height="173dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:onClick="location"
+            android:background="@drawable/locat"
+            android:text="" />
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="180dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:text="Location" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

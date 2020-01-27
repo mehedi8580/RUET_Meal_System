@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+
+    android:background="#e6e6fa"
+    >
+
+
+    <TextView
+        android:id="@+id/troll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1703104"
+        android:textSize="35dp"
+        android:textColor="#000"
+
+        />
+
+    <TextView
+        android:id="@+id/tlaun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch : 1"
+        android:textSize="25dp"
+        android:textColor="#06790B"
+
+        />
+    <TextView
+        android:id="@+id/tdin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dinner : 1"
+        android:textSize="25dp"
+
+        android:textColor="#06790B"
+
+        />
+
+</LinearLayout>

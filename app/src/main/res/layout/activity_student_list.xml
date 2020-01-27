@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentList"
+    android:orientation="vertical"
+    android:background="@drawable/bacgkround"
+
+    >
+
+
+    <TextView
+
+        android:id="@+id/date"
+        android:height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="25dp"
+        android:layout_height="wrap_content"
+        android:textColor="#0AC012"
+        android:text="Meal for Date : 01 jan 2020"
+
+
+        />
+
+    <ListView
+
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="2dp"
+        android:divider="#D3000000"
+
+        >
+
+
+
+
+
+    </ListView>
+
+</LinearLayout>

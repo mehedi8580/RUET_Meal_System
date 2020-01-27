@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Uprofile"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:text="Welcome to Your profile"
+        android:textColor="#0A8D0F"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+
+
+    <TextView
+        android:id="@+id/hallName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:textColor="#000"
+         />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="297dp"
+        android:layout_height="40dp"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/roll"
+        android:layout_width="291dp"
+        android:layout_height="40dp"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:textColor="#000" />
+
+
+
+    <TextView
+        android:id="@+id/dept"
+        android:layout_width="291dp"
+        android:layout_height="40dp"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="291dp"
+        android:layout_height="40dp"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="291dp"
+        android:layout_height="40dp"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:textColor="#000"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:text="Take Token From Here"
+        android:textColor="#000"
+
+        />
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="99dp"
+        android:layout_height="40dp"
+        android:text="Launch"
+        android:textSize="20dp"
+        android:textColor="#000"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="53dp"
+        android:layout_height="36dp"
+        android:entries="@array/Token"
+
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="87dp"
+        android:layout_height="40dp"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:textColor="#000"
+        />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="53dp"
+        android:layout_height="36dp"
+        android:entries="@array/Token"
+       />
+
+
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="404dp"
+        android:layout_height="55dp"
+        android:text="Submitt your Token"
+        />
+
+</LinearLayout>

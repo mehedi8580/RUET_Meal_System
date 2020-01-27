@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "667257345388",
+    "firebase_url": "https://ruetmeal2.firebaseio.com",
+    "project_id": "ruetmeal2",
+    "storage_bucket": "ruetmeal2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667257345388:android:03cba1e6718cf6ea",
+        "android_client_info": {
+          "package_name": "com.example.ruet_meal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667257345388-ih4me4k3f2cnhp19a34615ihe7rrutuu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ruet_meal",
+            "certificate_hash": "fe300c1f8b4be7734561b312bfc909b39ec9d61c"
+          }
+        },
+        {
+          "client_id": "667257345388-ppollbc9h2pr4e0gf9cchva7v927dpul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHgfRwMuGN3P8frwHhfzyvP3PyHShrZfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667257345388-ppollbc9h2pr4e0gf9cchva7v927dpul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
